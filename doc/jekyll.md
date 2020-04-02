@@ -4,8 +4,9 @@ title: Jekyll
 nav_order: 3
 ---
 
-# Jekyll
-## System install (one-time only)
+* TOC
+{:toc}
+# System install (one-time only)
 ```bash
 # ruby install, not sure it's always needed, but purging existing install
 sudo apt purge ruby*
@@ -23,7 +24,7 @@ source .bashrc
 gem install jekyll bundler
 ```
 
-## Project create and dev
+# Project create and dev
 ```bash
 # create site
 jekyll new abc
@@ -52,7 +53,8 @@ bundle
 bundle exec jekyll serve
 ```
 
-## Deploy on framagit (using CI)
+# Deploy
+## framagit (using CI)
 Setup CI with  
 **.gitlab-ci.yml :**
 ```yaml
@@ -82,7 +84,7 @@ pages:
     - framagit-pages
 ```
 
-## Deploy on github (github-pages)
+## github (github-pages)
 It is usable locally as well (github-pages is a deps bundle, same as deployed on github)  
 **Gemfile :**
 ```bash
@@ -99,6 +101,8 @@ bundle
 ```bashrc
 # replace theme: blabla with
 remote_theme: pmarsceill/just-the-docs
+
+url: "https://barchstien.github.io/abc"
 ```
 
 # Theme
