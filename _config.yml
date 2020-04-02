@@ -23,7 +23,7 @@ email: bastien.auneau@while-true.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Trying to organize things I learnt and to store templates and commands I often use
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://barchstien.github.io/abc" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://barchstien.frama.io/abc/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  barchstien
 
