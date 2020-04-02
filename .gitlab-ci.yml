@@ -9,19 +9,14 @@ variables:
 
 before_script:
   - gem install bundle
-  - gem update bundle
   - bundle -v
   - bundle install
 
 pages:
   stage: deploy
   script:
-    - bundle -v
     - bundle exec jekyll -v
-    - ls -al
     - bundle exec jekyll build -d public
-    - ls -al
-    - ls -al public
   artifacts:
     paths:
       - public
