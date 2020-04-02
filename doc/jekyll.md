@@ -3,6 +3,7 @@ layout: page
 title: Jekyll
 nav_order: 3
 ---
+
 # Jekyll
 ## System install (one-time only)
 ```bash
@@ -100,7 +101,35 @@ bundle
 remote_theme: pmarsceill/just-the-docs
 ```
 
+# Theme
+## just-the-docs
+### custom CSS
+Copy from the theme source of make a new  
+**_sass/custom/custom.scss :**
+```scss
+# usefull examples
+
+$body-line-height: 1.0;
+$content-line-height: 1.0;
+$body-heading-line-height: 1.0;
+
+//$body-background-color: $white;
+//$sidebar-color: $grey-lt-000;
+//$search-background-color: $white;
+//$table-background-color: $white;
+//$code-background-color: $grey-lt-000;
+
+//$body-text-color: $grey-dk-100;
+//$body-heading-color: $grey-dk-300;
+//$search-result-preview-color: $grey-dk-000;
+//$nav-child-link-color: $grey-dk-100;
+//$link-color: $purple-000;
+//$btn-primary-color: $purple-100;
+//$base-button-color: #f7f7f7;
+```
+
 # Add content
-Checkout the doc of [just-the-docs](https://pmarsceill.github.io/just-the-docs/)
-TODO
+Checkout the doc of [just-the-docs](https://pmarsceill.github.io/just-the-docs/)  
+Basically add markdown files to a folder, and look at navigation docs of the theme
+
 
