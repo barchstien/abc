@@ -52,8 +52,8 @@ bundle exec jekyll serve
 ```
 
 ## Deploy on github (github-pages)
-It is usable locally as well
-**Gemfile**
+It is usable locally as well (github-pages is a deps bundle, same as deployed on github)  
+**Gemfile :**
 ```bash
 # comment out
 #gem "jekyll"
@@ -64,7 +64,7 @@ gem "github-pages", group: :jekyll_plugins
 
 bundle
 ```
-**_config.yml**
+**_config.yml :**
 ```bashrc
 # replace theme: blabla with
 remote_theme: pmarsceill/just-the-docs
