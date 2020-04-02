@@ -52,8 +52,24 @@ bundle
 bundle exec jekyll serve
 ```
 
-## Deploy on github
-TODO github-pages
+## Deploy on github (github-pages)
+It is usable locally as well
+**Gemfile**
+```bash
+# comment out
+#gem "jekyll"
+#gem "just-the-docs"
+
+# add in Gemfile
+gem "github-pages", group: :jekyll_plugins
+
+bundle
+```
+**_config.yml**
+```bashrc
+# replace theme: blabla with
+remote_theme: pmarsceill/just-the-docs
+```
 
 # Add content
 Checkout the doc of [just-the-docs](https://pmarsceill.github.io/just-the-docs/)
