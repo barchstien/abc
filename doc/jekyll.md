@@ -51,6 +51,13 @@ bundle
 bundle exec jekyll serve
 ```
 
+## Deploy on framagit (using CI)
+Setup CI with  
+**.gitlab-ci.yml :**
+```yaml
+
+```
+
 ## Deploy on github (github-pages)
 It is usable locally as well (github-pages is a deps bundle, same as deployed on github)  
 **Gemfile :**
