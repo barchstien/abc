@@ -26,3 +26,11 @@ nav_order: 0
 </pre>
 </section>
 
+TODO
+ - cmake template app and lib
+ - python 
+   - anaconda
+   - django
+   - bokeh
+ - Linux links to ref (dma, char device, ioctl, i2c, spi, gpio)
+
