@@ -6,8 +6,23 @@ layout: home
 title: Home
 nav_order: 0
 ---
+<style type="text/css" media="screen">
+  section {
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+	margin: 0 auto;
+	width: 22em;
+  }
+</style>
 
-# Blop
-blibediplo
-## sub-blop
-blupadi !!
+<section>
+<pre style="line-height: 1.2;">  
+ ^ ^    ^ ^    ^ ^    ^ ^
+(@,@)  (-,-)  (¤,¤)  (*,*)
+(   )  (   )  (   )  (   )
+-"-"----"-"----"-"----"-"---abc-
+</pre>
+</section>
+
