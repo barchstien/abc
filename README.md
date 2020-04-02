@@ -1,3 +1,9 @@
+---
+layout: page
+title: Readme
+permalink: /readme/
+nav_order: 3
+---
 # Jekyll
 ## System install (one-time only)
 ```bash
@@ -23,9 +29,9 @@ gem install jekyll bundler
 jekyll new abc
 cd abc
 ```
-Use a theme available as gem, here just-the-docs
-**Gemfile**
-```gem
+Use a theme available as gem, here just-the-docs  
+**Gemfile :**
+```ruby
 source "https://rubygems.org"
 gem "jekyll"
 gem "just-the-docs"
@@ -34,7 +40,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 ```
-Set in **_config.yml**
+Set in **_config.yml :**
 ```yml
 theme: just-the-docs
 ```
