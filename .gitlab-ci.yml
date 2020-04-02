@@ -3,7 +3,7 @@
 # Docs: https://docs.gitlab.com/ce/pages/
 image: ruby:2.5
 
-#variables:
+variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
