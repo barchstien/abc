@@ -42,7 +42,7 @@ group :jekyll_plugins do
 end
 ```
 Set in **_config.yml :**
-```yml
+```yaml
 theme: just-the-docs
 ```
 
@@ -97,8 +97,9 @@ gem "github-pages", group: :jekyll_plugins
 
 bundle
 ```
+
 **_config.yml :**
-```bashrc
+```bash
 # replace theme: blabla with
 remote_theme: pmarsceill/just-the-docs
 
