@@ -55,7 +55,30 @@ bundle exec jekyll serve
 Setup CI with  
 **.gitlab-ci.yml :**
 ```yaml
+# This file is a template, and might need editing before it works on your project.
+# Template project: https://gitlab.com/pages/jekyll
+# Docs: https://docs.gitlab.com/ce/pages/
+image: ruby:2.5
 
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+before_script:
+  - gem install bundle
+  - bundle -v
+  - bundle install
+
+pages:
+  stage: deploy
+  script:
+    - bundle exec jekyll -v
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  only:
+    - framagit-pages
 ```
 
 ## Deploy on github (github-pages)

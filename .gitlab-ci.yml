@@ -3,8 +3,8 @@
 # Docs: https://docs.gitlab.com/ce/pages/
 image: ruby:2.5
 
-#JEKYLL_ENV: production
 variables:
+  JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
 before_script:
