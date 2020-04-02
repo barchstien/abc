@@ -8,12 +8,17 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-    - bundle install
+  - bundle install
 
 pages:
   stage: deploy
   script:
+    - bundle -v
+    - bundle exec jekyll -v
+    - ls -al
     - bundle exec jekyll build -d public
+    - ls -al
+    - ls -al public
   artifacts:
     paths:
       - public
